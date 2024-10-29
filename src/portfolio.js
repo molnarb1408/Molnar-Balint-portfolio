@@ -22,8 +22,8 @@ const illustration = {
 const greeting = {
   username: "Molnár Bálint",
   title: "Üdv, Bálint vagyok!",
-  subTitle: emoji(
-    "Tesztelem a site-t hogy jó-e asd"
+  subTitle: (
+    "Molnár Bálint vagyok, lelkes és elkötelezett fejlesztő, aki frontend és backend technológiák széles skálájában rendelkezik tudással. Frontend területen erősségeim közé tartozik a JavaScript, HTML, CSS, Bootstrap, Angular és Node.js, illetve a NoSQL adatbázisok használata. Backend oldalon mélyebben ismerem a SQL, Java, Java Swing és JavaFX technológiákat. Célom, hogy hatékony és felhasználóbarát megoldásokat hozzak létre, amelyek valódi értéket adnak a felhasználóknak és az üzleti folyamatoknak egyaránt."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
