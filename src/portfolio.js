@@ -152,7 +152,7 @@ const educationInfo = {
   ]
 };
 
-// Work experience section
+// Work experience section 
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
