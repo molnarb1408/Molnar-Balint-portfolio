@@ -59,11 +59,11 @@ function Header() {
           )}
           {viewResume && (
             <li>
-              <a href="#resume">Resume</a>
+              <a href="#resume">Önéletrajz</a>
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">Elérhetőségem</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

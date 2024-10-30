@@ -38,6 +38,12 @@
   display: flex;
   margin-top: 40px;
 }
+
+.button-CV-div {
+  display: flex;
+  margin-top: 10px;
+}
+
 .download-link-button {
   text-decoration: none;
 }
@@ -115,13 +121,23 @@
   .greeting-main {
     display: block;
   }
+
   .greeting-image-div {
     height: 256px;
+  }
+}
+
+@media (max-width: 587px) {
+  .greeting-main .button-greeting-div {
+    display: grid;
   }
 }
 
 @media (max-width: 320px) {
   .main {
     width: auto;
+  }
+  .greeting-main .button-greeting-div {
+    display: grid;
   }
 }

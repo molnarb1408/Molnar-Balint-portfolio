@@ -44,15 +44,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Tudástáram:",
+  subTitle: "Lelkes fejlesztő, Frontend és Backend tudással!",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Modern Front End felületek tervezése webes oldalak ls applikációk számára"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡Adatbázis kezelés, SQL - NoSQL megoldások segítségével"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ JAVA Back End fejlesztő"
     )
   ],
 
@@ -77,16 +77,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -97,50 +93,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "noSql-database",
+      fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
-};
-
-// Education Section
-
-const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -149,19 +106,46 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Tervezés", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "65%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "67%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+};
+
+
+// Education Section
+
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Pécsi Tudományegyetem",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Pénzügy és számvitel",
+      duration: "Szeptember 2019 - Június 2022",
+      desc: "MNB Kiválósági ösztöndíj nyertese",
+      descBullets: [
+        "Kiemelkedő 5* érdemjeggyel elvégzet alapképzés",
+      ]
+    },
+    {
+      schoolName: "Pécsi Tudományegyetem",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Vállalkozási mérlegképes könyvelő",
+      duration: "Szeptember 2019 - Június 2022",
+      desc: "Egyetem elvégzése közben, sikeresen megszerzett Vállalkozási mérlegképes könyvelő végzetség",
+      descBullets: ["Hivatalos, Vállalkozási mérlegképes könyvelő bizonyítvány megszerzése"]
+    }
+  ]
 };
 
 // Work experience section
