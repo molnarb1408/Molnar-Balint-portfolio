@@ -27,3 +27,4 @@ public/profile.json
 public/blogs.json
 src/containers/greeting/CV_molnar_b.pdf
 src/containers/greeting/Önéletrajz.pdf
+*.pdf
