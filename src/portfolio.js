@@ -155,7 +155,7 @@ const educationInfo = {
 // Work experience section 
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section 
   experience: [
     {
       role: "Software Engineer",
