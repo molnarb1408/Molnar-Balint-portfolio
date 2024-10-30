@@ -25,37 +25,4 @@ yarn-error.log*
 #user generated content
 public/profile.json
 public/blogs.json
-src/containers/greeting/CV_molnar_b.pdf
-src/containers/greeting/Önéletrajz.pdf
-*.pdf
 
-# Xcode
-.DS_Store
-*/build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata/
-*.xccheckout
-*.moved-aside
-DerivedData/
-.idea/
-*.xcuserstate
-
-# Swift Package Manager
-.build/
-Packages
-Package.pins
-Package.resolved
-
-# Carthage
-Carthage/Build/
-Carthage/Checkouts/
-
-# CocoaPods
-Pods/
