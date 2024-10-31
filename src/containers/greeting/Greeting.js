@@ -42,8 +42,8 @@ export default function Greeting() {
                 <Button text="elérhetőségem" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./Önéletrajz.pdf")}
-                    download="Önéletrajz.pdf"
+                    href={require("./CV_molnarB_HU.pdf")}
+                    download="CV_molnarB_HU.pdf"
                     className="download-link-button"
                   >
                     <Button text="Önéletrajz HU" />
@@ -51,8 +51,8 @@ export default function Greeting() {
                 )}
                 {greeting.resumeLink && (
                   <a
-                    href={require("./CV_molnar_b.pdf")}
-                    download="CV_molnar_b.pdf"
+                    href={require("./CV_molnarB_EN.pdf")}
+                    download="CV_molnarB_EN.pdf"
                     className="download-link-button"
                   >
                     <Button text="Önéletrajz EN" />

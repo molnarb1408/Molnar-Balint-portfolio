@@ -133,7 +133,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Pécsi Tudományegyetem",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/PTE.webp"),
       subHeader: "Pénzügy és számvitel",
       duration: "Szeptember 2019 - Június 2022",
       desc: "MNB Kiválósági ösztöndíj nyertese",
@@ -143,7 +143,7 @@ const educationInfo = {
     },
     {
       schoolName: "Pécsi Tudományegyetem",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/PTE.webp"),
       subHeader: "Vállalkozási mérlegképes könyvelő",
       duration: "Szeptember 2019 - Június 2022",
       desc: "Egyetem elvégzése közben, sikeresen megszerzett Vállalkozási mérlegképes könyvelő végzetség",
@@ -158,29 +158,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section 
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Vállalati weblap készítés",
+      company: "Greensense Consulting",
+      companylogo: require("./assets/images/greensenseLogo.png"),
+      date: "2024 Augusztus – 2024 Október",
+      desc: "A GreenSense Consulting megbízásából elkészítettem a hívatalos 'GreenSense.hu' weblapot.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Technlogiák: HTML5, CSS3, Bootstrap, JavaScript, PhP, npm",
+        "Informatív, modern sztandardoknak megfelelő design",
+        "SEO optimalizáció",
+        "Felület készítés, tesztelés, stb.",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Eszkalációs Menedzser (logisztika - autóipar)",
+      company: "Provertha Zrt.",
+      companylogo: require("./assets/images/proverthaLogo.png"),
+      date: "2023-04 – 2023-12",
+      desc: "Automitive - Logisztika, területén töltöttem be menedzseri munkakört.",
+      descBullets: [
+        "Növeltem a teljesítményt a napi tevékenységek nyomon követésével és a csapattagok mentorálásával.",
+        "Számos feladatot sikeresen elvégeztem a meghatározott határidőkön belül.",
+        "Javítottam az ügyfél-elégedettséget a viták gyors rendezésével, a folyamatos kommunikációval és a magas színvonalú szolgáltatás biztosításával.",
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Junior Adótanácsadó",
+      company: "Ernst & Young,",
+      companylogo: require("./assets/images/eyLogo.png"),
+      date: "2022-12 – 2023-03",
+      desc: "Junior Adótanácsadó munkakört töltöttem be a pénzügyi-szolgáltatói szektor 'BIG4' egyik meghatározó multinacionális vállalkozásánál.",
+      descBullets: [
+        "Figyelemmel kísértem a projekteket, hogy megfeleljenek a jogi és szabályozási előírásoknak,",
+        "Részletes jelentéseket készítettem a megfelelési mutatókról, tájékoztatva a felsővezetést a főbb trendekről és a javításra szoruló területekről.",
+      ]
     }
   ]
 };
@@ -196,17 +207,17 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Nagyobb Projekjeim",
+  subtitle: "NÉHÁNY CÉGEK ÁLTAL MEGRENDELT, ILLETVE SAJÁT KÉSZÍTÉSŰ PROJECT",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/greenssenseCroppedLogo.png"),
+      projectName: "GreenSense.hu",
+      projectDesc: "A GreenSense Consulting tréningeket, workshopokat, előadásokat és egyéb programokat kínál fenntarthatósági és ESG témákban. A cég elkötelezett abban, hogy a fenntarthatóságot a vállalati kultúra szerves részévé tegye. Céljuk, hogy segítsék partnereiket az ESG céljaik és vállalásaik elérésében. Ennek a célnak a nevében készült el egy lehető legjobban a fenntarthatóságra koncentráló weboldal.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Weboldal Megnyítása",
+          url: "https://greensense.hu"
         }
         //  you can add extra buttons here.
       ]
@@ -217,7 +228,7 @@ const bigProjects = {
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Weboldal Megnyítása",
           url: "http://nextu.se/"
         }
       ]
