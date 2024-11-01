@@ -31,3 +31,4 @@ src/containers/greeting/Önéletrajz.pdf
 *.pdf
 src/containers/greeting/CV_molnarB_EN.pdf
 src/containers/greeting/CV_molnarB_HU.pdf
+*.env

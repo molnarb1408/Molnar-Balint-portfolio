@@ -1,22 +1,18 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
-
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation"; 
 
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true, 
   animation: splashAnimation,
-  duration: 1200 // Set animation duration as per your animation
+  duration: 1200 
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true 
 };
 
 const greeting = {
@@ -26,8 +22,8 @@ const greeting = {
     "Molnár Bálint vagyok, lelkes és elkötelezett fejlesztő, aki frontend és backend technológiák széles skálájában rendelkezik tudással. Frontend területen erősségeim közé tartozik a JavaScript, HTML, CSS, Bootstrap, Angular és Node.js, illetve a NoSQL adatbázisok használata. Backend oldalon mélyebben ismerem a SQL, Java, Java Swing és JavaFX technológiákat."
   ),
   resumeLink:
-    "https://mega.nz/file/8exnVLAQ#PWQbcfx4ska1UN_sO7lGWQXa7u6OCqJmo0oa7cU8It0", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://mega.nz/folder/oHoRxABT#3VkrF55q0xR112UNTiBaQg", 
+  displayGreeting: true 
 };
 
 // Social Media Links
@@ -36,28 +32,24 @@ const socialMediaLinks = {
   github: "https://github.com/molnarb1408",
   linkedin: "https://www.linkedin.com/in/bálint-molnár-a3b66a24b/",
   gmail: "molnar.balint1408@gmail.com",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true 
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "Tudástáram:",
+  title: "Képességeim:",
   subTitle: "Lelkes fejlesztő, Frontend és Backend tudással!",
   skills: [
     emoji(
       "⚡ Modern Front End felületek tervezése webes oldalak ls applikációk számára"
     ),
+    emoji("⚡Angular Fejlesztő"),
     emoji("⚡Adatbázis kezelés, SQL - NoSQL megoldások segítségével"),
     emoji(
       "⚡ JAVA Back End fejlesztő"
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -101,17 +93,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
-// Your top 3 proficient stacks/tech experience
+// Proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, 
   experience: [
     {
-      Stack: "Frontend/Tervezés", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Tervezés", 
+      progressPercentage: "80%" 
     },
     {
       Stack: "Backend",
@@ -122,14 +114,14 @@ const techStack = {
       progressPercentage: "67%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false 
 };
 
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "Pécsi Tudományegyetem",
@@ -155,7 +147,7 @@ const educationInfo = {
 // Work experience section 
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section 
+  display: true, 
   experience: [
     {
       role: "Vállalati weblap készítés",
@@ -200,11 +192,11 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  showGithubProfile: "true", 
+  display: true 
 };
 
-// Some big projects you have worked on
+// Big projects
 
 const bigProjects = {
   title: "Nagyobb Projekjeim",
@@ -219,12 +211,11 @@ const bigProjects = {
           name: "Weboldal Megnyítása",
           url: "https://greensense.hu"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/placeholder.png"),
+      projectName: "placeholder",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -234,77 +225,66 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Eredmények és Bizonyítványok 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievementek, Bizonyítványok, Díjak amiket elértem, és büszke vagyok rájuk!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Magyar Nemzeti Bank - Kiválósági ösztöndíj",
+      subtitle: "Sikeresen megszerzett MNB kíválósági ösztöndíj, kiemelkedő tanulmányi teljesítményért!",
+      image: require("./assets/images/mnbLogo.png"),
+      imageAlt: "MNB Logo",
       footerLink: [
+        { name: "Ösztöndíj", url: "https://mega.nz/file/8H5wlAIZ#RuKZYqNavUr6ikjAOqbQJkaYb2Sq0mymMB6KlecFaE0" },
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Felhívás",
+          url: "https://www.mnb.hu/oktatas/mnb-kivalosagi-osztondij"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Ruander - Frontend fejlesztő",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Sikeresen elvégzett Frontend fejlesztői képzés, kiemelkedő 5* eredménnyel!",
+      image: require("./assets/images/ruanderLogo.jpg"),
+      imageAlt: "Ruander Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Felhívás",
+          url: "https://www.ruander.hu/junior-frontend-fejleszto-tanfolyam.html"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Ruander - Backend fejlesztő",
+      subtitle:
+        "Folyamatban lévő Backend fejlesztői képzés!",
+      image: require("./assets/images/ruanderLogo.jpg"),
+      imageAlt: "Ruander Logo",
       footerLink: [
-        { name: "Certification", url: "" },
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Felhívás",
+          url: "https://www.ruander.hu/java-programozo.html"
         }
       ]
-    }
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
-  subtitle: "Feel free to download my resume",
+  title: "Önéletrajz",
+  subtitle: "Töltsd az önéletrajzom!",
 
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false 
 };
 
 const contactInfo = {
@@ -316,7 +296,7 @@ const contactInfo = {
 };
 
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; 
 
 export {
   illustration,
