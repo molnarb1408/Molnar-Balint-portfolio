@@ -1,18 +1,18 @@
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, 
+  enabled: true,
   animation: splashAnimation,
-  duration: 1200 
+  duration: 1200
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true 
+  animated: true
 };
 
 const greeting = {
@@ -22,8 +22,8 @@ const greeting = {
     "Molnár Bálint vagyok, lelkes és elkötelezett fejlesztő, aki frontend és backend technológiák széles skálájában rendelkezik tudással. Frontend területen erősségeim közé tartozik a JavaScript, HTML, CSS, Bootstrap, Angular és Node.js, illetve a NoSQL adatbázisok használata. Backend oldalon mélyebben ismerem a SQL, Java, Java Swing és JavaFX technológiákat."
   ),
   resumeLink:
-    "https://mega.nz/folder/oHoRxABT#3VkrF55q0xR112UNTiBaQg", 
-  displayGreeting: true 
+    "https://mega.nz/folder/oHoRxABT#3VkrF55q0xR112UNTiBaQg",
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -32,7 +32,7 @@ const socialMediaLinks = {
   github: "https://github.com/molnarb1408",
   linkedin: "https://www.linkedin.com/in/bálint-molnár-a3b66a24b/",
   gmail: "molnar.balint1408@gmail.com",
-  display: true 
+  display: true
 };
 
 // Skills Section
@@ -41,14 +41,11 @@ const skillsSection = {
   title: "Képességeim:",
   subTitle: "Lelkes fejlesztő, Frontend és Backend tudással!",
   skills: [
-    emoji(
-      "⚡ Modern Front End felületek tervezése webes oldalak ls applikációk számára"
-    ),
     emoji("⚡Angular Fejlesztő"),
+    emoji("⚡ JAVA Back End fejlesztő"),
+    emoji("⚡ Modern Front End felületek tervezése webes oldalak és applikációk számára"),
     emoji("⚡Adatbázis kezelés, SQL - NoSQL megoldások segítségével"),
-    emoji(
-      "⚡ JAVA Back End fejlesztő"
-    )
+
   ],
 
   softwareSkills: [
@@ -93,17 +90,17 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-database"
     },
   ],
-  display: true 
+  display: true
 };
 
 // Proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, 
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Tervezés", 
-      progressPercentage: "80%" 
+      Stack: "Frontend/Tervezés",
+      progressPercentage: "80%"
     },
     {
       Stack: "Backend",
@@ -114,7 +111,7 @@ const techStack = {
       progressPercentage: "67%"
     }
   ],
-  displayCodersrank: false 
+  displayCodersrank: false
 };
 
 
@@ -147,7 +144,7 @@ const educationInfo = {
 // Work experience section 
 
 const workExperiences = {
-  display: true, 
+  display: true,
   experience: [
     {
       role: "Vállalati weblap készítés",
@@ -192,8 +189,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", 
-  display: true 
+  showGithubProfile: "true",
+  display: true
 };
 
 // Big projects
@@ -225,7 +222,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true 
+  display: true
 };
 
 // Achievement Section
@@ -276,7 +273,7 @@ const achievementSection = {
       ]
     },
   ],
-  display: true 
+  display: true
 };
 
 // Resume Section
@@ -284,7 +281,7 @@ const resumeSection = {
   title: "Önéletrajz",
   subtitle: "Töltsd az önéletrajzom!",
 
-  display: false 
+  display: false
 };
 
 const contactInfo = {
@@ -296,7 +293,7 @@ const contactInfo = {
 };
 
 
-const isHireable = true; 
+const isHireable = true;
 
 export {
   illustration,
