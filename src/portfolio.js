@@ -41,10 +41,10 @@ const skillsSection = {
   title: "Képességeim:",
   subTitle: "Lelkes fejlesztő, Frontend és Backend tudással!",
   skills: [
-    emoji("⚡Angular Fejlesztő"),
+    emoji("⚡ Angular Fejlesztő"),
     emoji("⚡ JAVA Back End fejlesztő"),
     emoji("⚡ Modern Front End felületek tervezése webes oldalak és applikációk számára"),
-    emoji("⚡Adatbázis kezelés, SQL - NoSQL megoldások segítségével"),
+    emoji("⚡ Adatbázis kezelés, SQL - NoSQL megoldások segítségével"),
 
   ],
 
