@@ -67,7 +67,7 @@ export default function Greeting() {
             ) : (
               <img
                 alt="placeholder"
-                src={require("../../assets/images/placeholder.png")}
+                src={require("../../assets/images/placeholder.webp")}
               ></img>
             )}
           </div>

@@ -152,7 +152,7 @@ const workExperiences = {
     {
       role: "Vállalati weblap készítés",
       company: "Greensense Consulting",
-      companylogo: require("./assets/images/greensenseLogo.png"),
+      companylogo: require("./assets/images/greensenseLogo.webp"),
       date: "2024 Augusztus – 2024 Október",
       desc: "A GreenSense Consulting megbízásából elkészítettem a hívatalos 'GreenSense.hu' weblapot.",
       descBullets: [
@@ -165,7 +165,7 @@ const workExperiences = {
     {
       role: "Eszkalációs Menedzser (logisztika - autóipar)",
       company: "Provertha Zrt.",
-      companylogo: require("./assets/images/proverthaLogo.png"),
+      companylogo: require("./assets/images/proverthaLogo.webp"),
       date: "2023-04 – 2023-12",
       desc: "Automitive - Logisztika, területén töltöttem be menedzseri munkakört.",
       descBullets: [
@@ -177,7 +177,7 @@ const workExperiences = {
     {
       role: "Junior Adótanácsadó",
       company: "Ernst & Young,",
-      companylogo: require("./assets/images/eyLogo.png"),
+      companylogo: require("./assets/images/eyLogo.webp"),
       date: "2022-12 – 2023-03",
       desc: "Junior Adótanácsadó munkakört töltöttem be a pénzügyi-szolgáltatói szektor 'BIG4' egyik meghatározó multinacionális vállalkozásánál.",
       descBullets: [
@@ -203,7 +203,7 @@ const bigProjects = {
   subtitle: "NÉHÁNY CÉGEK ÁLTAL MEGRENDELT, ILLETVE SAJÁT KÉSZÍTÉSŰ PROJECT",
   projects: [
     {
-      image: require("./assets/images/greenssenseCroppedLogo.png"),
+      image: require("./assets/images/greenssenseCroppedLogo.webp"),
       projectName: "GreenSense.hu",
       projectDesc: "A GreenSense Consulting tréningeket, workshopokat, előadásokat és egyéb programokat kínál fenntarthatósági és ESG témákban. A cég elkötelezett abban, hogy a fenntarthatóságot a vállalati kultúra szerves részévé tegye. Céljuk, hogy segítsék partnereiket az ESG céljaik és vállalásaik elérésében. Ennek a célnak a nevében készült el egy lehető legjobban a fenntarthatóságra koncentráló weboldal.",
       footerLink: [
@@ -214,7 +214,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/placeholder.png"),
+      image: require("./assets/images/placeholder.webp"),
       projectName: "placeholder",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -239,7 +239,7 @@ const achievementSection = {
     {
       title: "Magyar Nemzeti Bank - Kiválósági ösztöndíj",
       subtitle: "Sikeresen megszerzett MNB kíválósági ösztöndíj, kiemelkedő tanulmányi teljesítményért!",
-      image: require("./assets/images/mnbLogo.png"),
+      image: require("./assets/images/mnbLogo.webp"),
       imageAlt: "MNB Logo",
       footerLink: [
         { name: "Ösztöndíj", url: "https://mega.nz/file/8H5wlAIZ#RuKZYqNavUr6ikjAOqbQJkaYb2Sq0mymMB6KlecFaE0" },
@@ -253,7 +253,7 @@ const achievementSection = {
       title: "Ruander - Frontend fejlesztő",
       subtitle:
         "Sikeresen elvégzett Frontend fejlesztői képzés, kiemelkedő 5* eredménnyel!",
-      image: require("./assets/images/ruanderLogo.jpg"),
+      image: require("./assets/images/ruanderLogo.webp"),
       imageAlt: "Ruander Logo",
       footerLink: [
         {
@@ -266,7 +266,7 @@ const achievementSection = {
       title: "Ruander - Backend fejlesztő",
       subtitle:
         "Folyamatban lévő Backend fejlesztői képzés!",
-      image: require("./assets/images/ruanderLogo.jpg"),
+      image: require("./assets/images/ruanderLogo.webp"),
       imageAlt: "Ruander Logo",
       footerLink: [
         {

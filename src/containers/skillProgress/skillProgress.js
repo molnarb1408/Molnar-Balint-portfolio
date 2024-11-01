@@ -33,7 +33,7 @@ export default function StackProgress() {
             ) : (
               <img
                 alt="placeholder"
-                src={require("../../assets/images/placeholder.png")}
+                src={require("../../assets/images/placeholder.webp")}
               />
             )}
           </div>
